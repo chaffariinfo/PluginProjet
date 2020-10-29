@@ -5,13 +5,13 @@
 
   <groupId>fr.imiddleware.plugins</groupId>
   <artifactId>PluginProject</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
     <scm>
         <connection>scm:git:http://github.com/chaffariinfo/PluginProjet</connection>
         <developerConnection>scm:git:http://github.com/chaffariinfo/PluginProjet</developerConnection>
         <url>scm:git:http://github.com/chaffariinfo/PluginProjet</url>
-      <tag>v1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
   <name>PluginProject</name>
