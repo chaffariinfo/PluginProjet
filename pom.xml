@@ -9,9 +9,9 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
     <scm>
-        <connection>scm:git:https://github.com/chaffariinfo/PluginProjet</connection>
-        <developerConnection>scm:git:https://github.com/chaffariinfo/PluginProjet</developerConnection>
-        <url>https://github.com/chaffariinfo/PluginProjet</url>
+        <connection>scm:git:http://github.com/chaffariinfo/PluginProjet</connection>
+        <developerConnection>scm:git:http://github.com/chaffariinfo/PluginProjet</developerConnection>
+        <url>scm:git:http://github.com/chaffariinfo/PluginProjet</url>
     </scm>
 
   <name>PluginProject</name>
