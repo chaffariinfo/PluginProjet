@@ -8,6 +8,11 @@
   <artifactId>PluginProject</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
+    <scm>
+        <connection>scm:git:https://github.com/chaffariinfo/PluginProjet</connection>
+        <developerConnection>scm:git:https://github.com/chaffariinfo/PluginProjet</developerConnection>
+        <url>https://github.com/chaffariinfo/PluginProjet</url>
+    </scm>
 
   <name>PluginProject</name>
   <!-- FIXME change it to the project's website -->
@@ -82,7 +87,17 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-      </plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-release-plugin</artifactId>
+              <version>2.5.3</version>
+              <configuration>
+                  <tagNameFormat>v@{project.version}</tagNameFormat>
+              </configuration>
+          </plugin>
+
+
+          </plugins>
     </pluginManagement>
   </build>
 
